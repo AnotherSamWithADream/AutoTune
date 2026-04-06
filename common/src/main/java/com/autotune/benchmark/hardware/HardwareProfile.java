@@ -1,0 +1,42 @@
+package com.autotune.benchmark.hardware;
+
+import java.util.List;
+
+public record HardwareProfile(
+    String gpuName,
+    String gpuVendor,
+    int gpuVramMb,
+    String gpuDriver,
+    String glVersion,
+    String glRenderer,
+    float gpuTflops,
+    String gpuArchitecture,
+    int gpuGeneration,
+    int gpuTierHint,
+    String cpuName,
+    int cpuCores,
+    int cpuThreads,
+    float cpuBaseClockGhz,
+    float cpuBoostClockGhz,
+    int cpuL3CacheMb,
+    String cpuArchitecture,
+    int cpuTierHint,
+    int totalRamMb,
+    int availableRamMb,
+    long maxHeapMb,
+    long allocatedHeapMb,
+    String displayResolution,
+    int displayWidth,
+    int displayHeight,
+    int displayRefreshRate,
+    String storageType,
+    long storageFreeBytes,
+    double cpuTemperature,
+    double gpuTemperature,
+    boolean thermalThrottlingDetected,
+    String javaVersion,
+    String javaVendor,
+    String osName,
+    String osArch,
+    List<String> glExtensions
+) {}

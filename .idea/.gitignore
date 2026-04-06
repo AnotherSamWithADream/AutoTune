@@ -1,0 +1,21 @@
+# User-specific (don't share)
+/shelf/
+/workspace.xml
+/httpRequests/
+/queries/
+/dataSources/
+/dataSources.local.xml
+/usage.statistics.xml
+/dictionaries/
+/libraries/
+
+# Keep these (share with team):
+# compiler.xml - Java target level
+# encodings.xml - UTF-8
+# misc.xml - JDK version
+# gradle.xml - Gradle settings
+# codeStyles/ - Code style
+# inspectionProfiles/ - Inspections
+# runConfigurations/ - Run configs
+# vcs.xml - VCS mapping
+# saveactions_settings.xml - Save actions

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AutoTune.common" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.common.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.common.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_1" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_1.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_1.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_10" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_10.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_10.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_11" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_11.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_11.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_2" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_2.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_2.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_3" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_3.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_3.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_4" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_4.gametest" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_4.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_4.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_5" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_5.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_5.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_6" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_6.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_6.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_7" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_7.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_7.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_8" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_8.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_8.test" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_9" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_9.main" options="-Xlint:deprecation -Xlint:unchecked" />
+      <module name="AutoTune.versions-1_21_9.test" options="-Xlint:deprecation -Xlint:unchecked" />
+    </option>
+  </component>
+</project>

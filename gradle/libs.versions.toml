@@ -1,0 +1,24 @@
+[versions]
+# Fabric toolchain
+fabric-loom = "1.9-SNAPSHOT"
+# Default MC version for common module compilation
+minecraft = "1.21.4"
+yarn-mappings = "1.21.4+build.8"
+fabric-loader = "0.16.10"
+fabric-api = "0.114.0+1.21.4"
+# Shared libraries
+gson = "2.11.0"
+slf4j = "2.0.9"
+# Modrinth publishing
+minotaur = "2.8.7"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+yarn-mappings = { module = "net.fabricmc:yarn", version.ref = "yarn-mappings" }
+fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
+fabric-api = { module = "net.fabricmc.fabric-api:fabric-api", version.ref = "fabric-api" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+
+[plugins]
+fabric-loom = { id = "fabric-loom", version.ref = "fabric-loom" }
+minotaur = { id = "com.modrinth.minotaur", version.ref = "minotaur" }

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "autotune",
+  "version": "${version}",
+  "name": "AutoTune",
+  "description": "Intelligent automatic graphics optimization. Benchmarks your hardware, computes mathematically optimal settings, and live-adjusts in real time.",
+  "authors": ["AutoTune Team"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/autotune",
+    "sources": "https://github.com/autotune-mod/autotune"
+  },
+  "license": "MIT",
+  "icon": "assets/autotune/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.autotune.AutoTuneMod"],
+    "modmenu": ["com.autotune.compat.ModMenuIntegration"]
+  },
+  "mixins": ["autotune.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  },
+  "suggests": {
+    "sodium": "*",
+    "iris": "*",
+    "modmenu": "*"
+  }
+}

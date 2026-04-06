@@ -1,0 +1,72 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.kotlin/
+
+# IntelliJ IDEA - user-specific files (not shared)
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/libraries/
+.idea/modules/
+.idea/modules.xml
+.idea/jarRepositories.xml
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Fabric Loom
+**/run/
+**/.loom.lock
+**/remappedSrc/
+
+# Build artifacts
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Code review output (generated, not tracked)
+code-review-fixes/
+code-review.diff
+lint-report.txt
+
+# Inspection report
+index.html
+script.js
+styles.css
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+.claude/

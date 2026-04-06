@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <!-- Null safety -->
+    <inspection_tool class="NullableProblems" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ConstantConditions" enabled="true" level="WARNING" enabled_by_default="true" />
+    <!-- Unused code -->
+    <inspection_tool class="UnusedDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="unused" enabled="true" level="WARNING" enabled_by_default="true" />
+    <!-- Resource leaks -->
+    <inspection_tool class="resource" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="IOResource" enabled="true" level="WARNING" enabled_by_default="true" />
+    <!-- Java quality -->
+    <inspection_tool class="MismatchedJavadocCode" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="StringEquality" enabled="true" level="WARNING" enabled_by_default="true" />
+    <!-- Fabric-specific -->
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <!-- Disable noisy inspections -->
+    <inspection_tool class="TypoComment" enabled="false" level="TYPO" enabled_by_default="false" />
+    <inspection_tool class="TypoString" enabled="false" level="TYPO" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false" />
+  </profile>
+</component>
